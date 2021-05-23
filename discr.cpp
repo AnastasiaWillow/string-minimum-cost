@@ -14,8 +14,6 @@ int main()
 	int n, k;
 	cout << "Enter n and k: "; //количество символов в строке
 	cin >> n >> k;
-	//cout << "Enter the k: "; //количество букв из алфавита
-	//cin >> k;
 	
 	string res = "a";
 	int t = 0;
