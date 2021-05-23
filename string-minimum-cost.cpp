@@ -12,7 +12,7 @@ void empty(int** A, int k);
 int main()
 {
 	int n, k;
-	cout << "Enter n and k: "; //количество символов в строке
+	cout << "Enter n and k: ";
 	cin >> n >> k;
 	
 	string res = "a";
@@ -28,7 +28,7 @@ int main()
 	while (res.length() < n)
 	{
 		int last = res.length() - 1;
-		if (prov(num(res[last]), A, k)) //если букве, которую хочешь дoбавить, есть с кем встречаться
+		if (prov(num(res[last]), A, k))
 		{
 			res += newl(num(res[last]), A, k);
 			if (!prov(num(res[last]), A, k))
